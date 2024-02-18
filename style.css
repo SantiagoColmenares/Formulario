@@ -1,0 +1,63 @@
+:root{
+  --header:90px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 16px;
+}
+
+.header{
+  text-align: center;
+  font-size: 5rem;
+  padding: 20px 0;
+
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.container{
+  max-width: 900px;
+  margin: 0 auto;
+  height: calc(100vh - var(--header));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card{
+  border: 1px solid #000;
+  border-radius:12px;
+  padding: 8px; 
+  max-width: 380px;
+}
+
+.card--mt{
+  margin-top: 20px;
+}
+
+.card__title{
+  padding: 12px 0;
+}
+
+
+.list{
+
+}
+
+.list__item{
+  padding: 6px;
+  border-bottom: 1px solid #000;
+}
+
+.list__item:last-child{
+  border-bottom: none;
+}
