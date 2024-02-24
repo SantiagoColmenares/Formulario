@@ -49,10 +49,6 @@ body{
 }
 
 
-.list{
-
-}
-
 .list__item{
   padding: 6px;
   border-bottom: 1px solid #000;
@@ -60,4 +56,15 @@ body{
 
 .list__item:last-child{
   border-bottom: none;
+}
+
+
+
+.border--gree{
+  border-color:green;
+
+}
+
+.border--red{
+  border-color: red;
 }
